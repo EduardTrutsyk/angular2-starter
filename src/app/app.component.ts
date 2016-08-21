@@ -7,6 +7,6 @@ import '../styles/index.scss';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export default class AppComponent {
   title = 'Minimal NgModule2';
 }
