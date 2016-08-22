@@ -1,0 +1,9 @@
+<div class="flex">
+  <button type="button" (onClick)="decrement.emit()">-</button>
+  <div
+    data-testid="counter-result"
+    class="flex-auto flex-center center h1">
+    {{ counter.counter }}
+  </div>
+  <button type="button" (onClick)="increment.emit()">+</button>
+</div>
